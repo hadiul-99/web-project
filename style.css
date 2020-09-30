@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #3498db;
+}
+.header img{
+  width: 220px;
+  height: 51px;
+}
+.p-menu{    
+
+}
+.p-menu ul{
+    margin-bottom: 0;
+    text-align: center;
+}
+.p-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.p-menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0 30px;
+    text-align: right;padding: 0 30px;
+    font-size: 20px;
+    line-height: 71px;
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid white;
+}
+.p-menu ul li:hover a{
+    background: rgb(212, 49, 27);
+}
+
+.banner-text{
+    color: white;
+}
+.banner-text h1{
+    background-color: rgb(133, 252, 14, .8);
+    display: inline-block;
+    padding: 10px 15px;
+    
+    border-radius: 57px;
+}
+.banner-text h2{
+    background-color: rgba(250, 71, 146, 0.8);
+    padding: 10px 15px;
+    border-radius: 57px;
+    max-width: 620px;
+    margin: auto;
+    font-size: 50px;
+}
+.banner{
+    background-image: url(https://i.ibb.co/JkM0NP6/css-background-effects-thumb.jpg); 
+   padding: 200px 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.about{
+    background: rgb(189, 195, 199);
+}
+.service{
+    background: rgb(236, 240, 241);
+}
+img{
+    max-width: 100%;
+    border-radius: 95px;
+}
+.contact{
+    background: #D2D7D3;
+}
+.prodcut-item p{
+  font-size: 18px;
+}
+.prodcut-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.prodcut-right ul li{
+    background: rgb(127, 140, 141);
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.footer{
+    background: rgb(52, 73, 94);
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+}
